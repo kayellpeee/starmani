@@ -1,10 +1,23 @@
 <html>
 
+  <head>
+    <!-- // <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script> -->
+  </head>
+
   <body>
+  
     <h1>Star!</h1>
     <audio>
       <source src="http://themushroomkingdom.net/sounds/wav/smw/smw_coin.wav" type="audio/wav">
     </audio>
+
+    <script>
+      console.log('script ran');
+      var starWav = document.getElementsByTagName('audio')[0];
+      starWav.play();
+    </script>
+
   </body>
+
 
 </html>
